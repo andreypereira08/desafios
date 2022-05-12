@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Astronauta</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: black;
+            background-image: url(espaco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        div{
+
+            position: absolute;
+            background-image: url(astronauta.png);
+            /*background image url não funcionou
+            
+            mission fail :(
+            */
+            background-size: cover;
+            display: inline;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <img src="astronauta.png" alt="astro">
+        <!--tive que colocar a imagem pois o exercicio não está funcionando com o background image url-->
+    </div>
+</body>
+</html>
