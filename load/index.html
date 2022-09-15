@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste / load</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        @keyframes load {
+            0%{
+                box-shadow: 0 0 red inset;
+            }
+            100%{
+                box-shadow: 0 -70px green inset;
+            }
+        }
+
+        .loader{
+            margin: auto;
+            transform: perspective(140px) rotateX(-45deg) translate(0%, 50%);
+
+            width: 32px;
+            height: 72px;
+            position: relative;
+            border: 2px solid white;
+            animation: load 1.5s linear infinite alternate;
+        }
+        h1{
+            color: blue;
+            font-family: monospace;
+            padding-left: 50%;
+            transform: translate(-5%, 0%);
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1>load legal</h1>
+    <div class="loader">
+
+    </div>
+</body>
+</html>
