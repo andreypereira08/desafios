@@ -1,6 +1,6 @@
 
 # <a href="https://andreypereira08.github.io/desafios/" target="_blank">Abrir Página Principal - Desefios</a>
- desafio 006, 007, 008
+ desafio 006, 007, 008, load
  <br>
 <a href="https://andreypereira08.github.io/desafios/d006" target="_blank">Executar o desafio 006</a>
 
