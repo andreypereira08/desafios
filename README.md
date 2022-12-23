@@ -11,3 +11,5 @@ desafio 006, 007, 008, load
 <a href="https://andreypereira08.github.io/desafios/d011" target="_blank">Executar o desafio 011</a>
 
 <a href="https://andreypereira08.github.io/desafios/load" target="_blank">Executar o desafio load</a>
+
+<a href="https://andreypereira08.github.io/desafios/index.html" target="_blank">Executar a página principal de desafios</a>
